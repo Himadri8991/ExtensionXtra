@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ExtensionXtra</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h2>Font Changer Extension</h2>
+    <label for="fontSelector">Select Font:</label>
+    <select id="fontSelector">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Dyslxie">Dyslxie</option>
+      <option value="OpenDyslexic">OpenDyslexic</option>
+      <option value="Calibri">Calibri</option>
+      <option value="Courier">Courier</option>
+      <option value="Helvetica">Helvetica</option>
+    </select>
+    <textarea id="textInput" placeholder="Enter text to convert"></textarea>
+    <button id="textToSpeech">Text to Speech</button>
+    <button id="speechToText">Speech to Text</button>
+    <h2>Colorblind Contrast Slider</h2>
+    <p>Adjust colors for better visibility.</p>
+    <label for="contrastSlider">Contrast Level:</label>
+    <input type="range" id="contrastSlider" min="0" max="100" value="50" />
+    <input type="checkbox" id="toggle" />
+    <h2>Colorblind Filter</h2>
+    <p>Select a color filter:</p>
+    <select id="filterSelect">
+      <option value="normal">Normal Vision</option>
+      <option value="protanopia">Protanopia</option>
+      <option value="deuteranopia">Deuteranopia</option>
+      <option value="tritanopia">Tritanopia</option>
+    </select>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

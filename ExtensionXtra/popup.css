@@ -1,0 +1,16 @@
+body {
+  width: 300px;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+label,
+select,
+textarea,
+button {
+  display: block;
+  margin-bottom: 10px;
+}
