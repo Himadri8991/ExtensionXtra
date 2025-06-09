@@ -142,7 +142,7 @@ We respect the great work of:
 
 ## 👨‍💻 Project Lead
 
-### 🧑‍🚀 Himadri Das  
+### 🧑‍🚀 [Himadri Das](https://github.com/Himadri8991)  
 Tech Enthusiast | Accessibility Advocate | Cloud & AI Developer  
 🔗 [LinkedIn](https://www.linkedin.com/in/himadri-das-27487324a) 
 
