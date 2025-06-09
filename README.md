@@ -71,6 +71,58 @@
 
 ---
 
+
+## 🧰 Used Technologies
+
+### 🔷 Frontend (Chrome Extension UI)
+
+| Technology             | Purpose                                   |
+|-----------------------|-------------------------------------------|
+| **HTML5**             | Structure of the popup UI                  |
+| **CSS3**              | Styling the extension popup                |
+| **JavaScript (Vanilla JS)** | Event handling, DOM manipulation, integration with Chrome APIs |
+
+### 🟦 Chrome Extension APIs
+
+| API                                     | Usage                                             |
+|----------------------------------------|--------------------------------------------------|
+| `chrome.runtime.sendMessage` / `onMessage` | Communication between popup and background/content scripts |
+| `chrome.tabs.query`                     | Identify the active tab                           |
+| `chrome.scripting.executeScript`       | Inject scripts into web pages (content.js)       |
+| `chrome.storage` (optional)             | Save user settings (planned, not yet implemented) |
+
+### 🟠 Backend (Text-to-Speech Server)
+
+| Technology          | Purpose                                   |
+|---------------------|-------------------------------------------|
+| **Python 3**        | Server-side language                       |
+| **Flask**           | Python web framework to handle TTS requests |
+| **gTTS (Google Text-to-Speech)** | Python library to convert text to `.mp3` audio |
+| **Werkzeug**        | Flask’s internal tool to serve files like `output.mp3` |
+
+### 🧪 Development & Debugging
+
+| Tool                 | Purpose                                   |
+|----------------------|-------------------------------------------|
+| **Chrome Developer Tools** | Debug JS, inspect popup and content script behavior |
+| **Postman / Browser Testing** | Test Flask API endpoints locally         |
+
+### 🖼️ Assets
+
+| Asset                | Description                              |
+|----------------------|------------------------------------------|
+| **.png icons** (16x, 48x, 128x) | Toolbar and extension icons             |
+
+### ✅ Optional / Planned Additions
+
+| Technology           | Use Case                                  |
+|---------------------|--------------------------------------------|
+| **Web Speech API**   | Browser-native Speech-to-Text functionality |
+| **Chrome Storage API** | Save user preferences (font, contrast)    |
+| **Deployed Backend** (e.g., Render, Glitch) | Host Flask app publicly (since localhost won’t work in production) |
+
+---
+
 ## 🥊 Market Competitors
 
 We respect the great work of:
